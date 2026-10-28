@@ -4,6 +4,8 @@ A two-channel LED desk lamp converted into a smart Wi-Fi lamp using an ESP32 and
 
 The original lamp controller was replaced with an ESP32 and a custom circuit. A custom enclosure was designed and 3D printed (model files are available in `3d/`).
 
+<img src="./docs/assets/open.webp" alt="home assistant" width="600px" />
+
 ## Features
 
 - 3 color modes: warm, cool, and mixed
@@ -43,10 +45,18 @@ esphome config lamp.yaml
 esphome compile lamp.yaml
 
 # Upload firmware
-esphome run lamp.yaml
+esphome run lamp.yaml [--device <ip>]
 ```
 
 ## Usage
+
+### Home Assistant
+
+Go to *Settings* > *Devices & services* > *Add integration* > "*ESPHome*".
+
+<img src="./docs/assets/homeassistant.png" alt="home assistant" width="400px" />
+
+### Physical buttons
 
 | Button             | Action              |
 | ------------------ | ------------------- |
