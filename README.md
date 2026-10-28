@@ -2,7 +2,7 @@
 
 A two-channel LED desk lamp converted into a smart Wi-Fi lamp using an ESP32 and ESPHome, with Home Assistant integration.
 
-The original lamp controller was replaced with an ESP32 and a custom circuit. A custom enclosure was designed and 3D printed (model files are available in `3d/`).
+The original lamp controller was replaced with an ESP32 and a custom circuit. A custom enclosure was designed and 3D printed ([preview the 3D model](./3d/lamp.stl)).
 
 <img src="./docs/assets/open.webp" alt="home assistant" width="600px" />
 
