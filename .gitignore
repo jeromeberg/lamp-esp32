@@ -1,0 +1,4 @@
+.DS_Store
+secrets.yaml
+!secrets.example.yaml
+.esphome/
